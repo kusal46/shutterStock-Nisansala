@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+        <header>
+        <div class = "bg-black text-white px-6 py-2 flex justify-end items-center text-sm gap-80">
+            
+            <a href="#" class="w-auto h-auto">
+                <img
+                    src="../assets/images/image5.jpg"
+                    alt="Shutterstock Logo"
+                    class="h-20 w-auto object-contain mr-40"
+                >
+            </a>
+        <nav class="bg-black text-white px-6 py-2 flex justify-end items-center text-sm space-x-4">
+            <a href="#" class="flex items-center space-x-1 hover:text-gray-300 text-sm">
+                <span>Pricing</span>
+                <i class="fas fa-chevron-down text-xs"></i>
+            </a>
+            <a href="#" class="hover:text-gray-300 text-lg"><i class="fas fa-heart"></i></a>
+            <a href="#" class="hover:text-gray-300 text-lg"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#" class="bg-white text-black px-3 py-1 rounded hover:bg-gray-200 text-sm font-medium">Log in</a>
+        </nav>
+        
+        
+        </div>
+        <div class="justify-center">
+        <nav class="bg-black text-white px-6 py-4 flex justify-between items-center border-b border-gray-700 text-sm">
+            <div class="space-x-6 hidden lg:flex text-sm">
+                <div class="relative">
+                    <a href="#" id="images-link" class="flex items-center space-x-1 hover:text-shutterstock-blue text-sm">
+                        <span>Images</span>
+                        <i class="fas fa-chevron-down text-xs"></i>
+                    </a>
+                    <div id="images-dropdown" class="dropdown-menu absolute z-10 top-full left-0 mt-2 bg-black text-white p-4 w-56 rounded-md shadow-lg border border-gray-700 text-sm">
+                        <a href="#" class="block px-2 py-2 hover:bg-gray-800">Images home</a>
+                        <a href="#" class="block px-2 py-2 hover:bg-gray-800">Vectors</a>
+                        <a href="#" class="block px-2 py-2 hover:bg-gray-800">Photos</a>
+                        <a href="#" class="block px-2 py-2 hover:bg-gray-800">Premium images</a>
+                        <div class="border-t border-gray-700 my-2"></div>
+                        <a href="#" class="block px-2 py-2 hover:bg-gray-800">Editorial images</a>
+                        <a href="#" class="block px-2 py-2 hover:bg-gray-800">Curated collections</a>
+                        <a href="#" class="block px-2 py-2 hover:bg-gray-800">Trends</a>
+                        <a href="#" class="block px-2 py-2 hover:bg-gray-800">Categories</a>
+                    </div>
+                </div>
+                <a href="#" class="flex items-center space-x-1 hover:text-shutterstock-blue text-sm"><span>Video</span></a>
+                <a href="#" class="flex items-center space-x-1 hover:text-shutterstock-blue text-sm"><span>Music</span></a>
+                <a href="#" class="flex items-center space-x-1 hover:text-shutterstock-blue text-sm"><span>Editorial</span></a>
+                <a href="#" class="flex items-center space-x-1 hover:text-shutterstock-blue text-sm"><span>3D</span></a>
+                <a href="#" class="flex items-center space-x-1 hover:text-shutterstock-blue text-sm"><span>Studios</span></a>
+                <a href="#" class="flex items-center space-x-1 hover:text-shutterstock-blue text-sm"><span>Data licensing</span></a>
+                <a href="#" class="flex items-center space-x-1 hover:text-shutterstock-blue text-sm"><span>Business solutions</span></a>
+                <a href="#" class="flex items-center space-x-1 hover:text-shutterstock-blue text-sm"><span>All tools</span></a>
+            </div>
+        </nav>
+    </div>
+
+        <div class="bg-white border-b border-gray-200 px-6 py-3 flex items-center justify-between text-sm">
+            <div class="flex items-center border border-gray-300 rounded overflow-hidden w-full max-w-4xl mx-auto text-base">
+                <div class="flex items-center bg-gray-100 p-2 text-sm text-gray-600">
+                    <span class="mr-1">All images</span>
+                    <i class="fas fa-chevron-down text-xs"></i>
+                </div>
+                <input type="text" placeholder="Search for images" class="px-4 py-2 flex-grow focus:outline-none text-black text-sm">
+                <button class="bg-shutterstock-red text-white px-4 py-2 hover:bg-red-700 text-base">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button class="ml-4 flex items-center space-x-2 text-sm text-gray-600 hover:text-shutterstock-blue">
+                <i class="fas fa-camera"></i>
+                <span>Search by image</span>
+            </button>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 py-2 text-sm text-gray-500">
+            <a href="#" class="hover:underline">Home</a>
+            <span class="mx-1">/</span>
+            <span>Shutterstock Coupon and Discount Codes 2025</span>
+        </div>
+    </header>
+</body>
+</html>
